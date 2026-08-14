@@ -1,0 +1,25 @@
+.{
+    .name = .ziggame,
+    .version = "0.0.1",
+    .dependencies = .{
+        .sdl3 = .{
+            .url = "git+https://codeberg.org/7Games/zig-sdl3.git#69cf1fba30b39fe0a140fc2139d403692e650d16",
+            .hash = "sdl3-0.2.2-NmT1Q0ZUKgCxQv6PXwCIbr_MKILJYAgDWv1YhClnS4XH",
+        },
+        .zmath = .{
+            .url = "git+https://github.com/zig-gamedev/zmath.git#9e42b04a24c970a297b365f3d3022f92dbf3219d",
+            .hash = "zmath-0.11.0-dev-wjwivTwtAwDOjG2_KGP-HLtHrONfsFfHttalmxFAGVAK",
+        },
+        .obj = .{
+            .url = "git+https://github.com/chip2n/zig-obj#6070356009e761a4aef82256f1f431037ae97426",
+            .hash = "obj-3.0.2-v8OfivnLAAAgz1LaweX7sbe5ffod4VglAnYFCyjcPr1m",
+        },
+        .zgui = .{
+            .url = "git+https://github.com/zig-gamedev/zgui#0b468ccdc30d85f7fe72308791f2583344b62103",
+            .hash = "zgui-0.6.0-dev--L6sZCtHbgC6H4Y4LaZUaRYqouHWdeOpHmLhm4OHYiKz",
+        },
+    },
+    .minimum_zig_version = "0.16.0",
+    .paths = .{""},
+    .fingerprint = 0xd3f24b44e7ff8e93,
+}

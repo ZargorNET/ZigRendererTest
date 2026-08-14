@@ -1,0 +1,6 @@
+zig-pkg/
+zig-out/
+.zig-cache/
+**/.DS_Store
+imgui.ini
+*.xcodeproj
